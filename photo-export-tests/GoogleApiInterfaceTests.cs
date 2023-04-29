@@ -9,7 +9,7 @@ public class GoogleApiInterfaceTests
     [SetUp]
     public void Setup()
     {
-        _photo = new photo_export.GoogleApiInterface();
+        _photo = new GoogleApiInterface();
     }
 
     [Test]
