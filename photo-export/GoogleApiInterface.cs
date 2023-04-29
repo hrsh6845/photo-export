@@ -7,9 +7,9 @@ namespace photo_export
         {
         }
 
-        internal async Task CreateAlbum()
+        public async Task<IEnumerable<string>> CreateAlbum()
         {
-
+            throw new NotImplementedException();
         }
     }
 }
